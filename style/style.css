@@ -182,7 +182,7 @@ img{
     margin-bottom: 10px;
 }
 .fa-sub-title{
-    font-weight: 400;
+    font-weight: 300;
     font-size: 14px;
     color: #727272;
 }
@@ -198,3 +198,103 @@ img{
     width: 100%;
    
 }
+/*-----------
+-----------Some Facts--
+--------------*/
+.Some-Facts{
+    margin-top: 100px;
+}
+.facts-title{
+    font-weight: 800;
+    font-size: 35px;
+    color: #131313;
+    margin-bottom: 15px;
+}
+.facts-description{
+    font-weight: 400;
+    font-size: 14px;
+    color: #727272;
+    margin-bottom: 60px;
+}
+/*-----------
+-------works box styles---
+----------------*/
+.work-details{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 10px;
+   
+}
+.works{
+    border: 1px solid gold;
+    border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 3px;
+    border-radius: 10px;
+}
+.works img{
+    width: 47.57px;
+    height: 45px;
+   
+}
+.works-title{
+   color: #424242;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.works-sub-title{
+    font-weight: 600;
+    font-size: 13px;
+    color: #727272;
+}
+/*--------------------
+------Our Sponspors--------
+------------------------*/
+.Sponspors{
+    margin-top: 70px;
+}
+.Sponspors-title{
+     text-align: center;
+     margin-top: 10px;
+     font-weight: 700;
+     font-size: 45px;
+     color: #131313;
+     margin-bottom: 10px;
+}
+.Sponspors-description{
+    text-align: center;
+    margin-bottom: 70px;
+    color: #727272;
+}
+.sponspors-box{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.sponspors-box > div img{
+    width: 100%;
+    height: 40px;
+    color: #727272;
+}
+/*-------------
+-------footer------
+---------------*/
+.footer{
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+.footer-p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 20px;
+}
+
