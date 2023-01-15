@@ -176,12 +176,14 @@ img{
     display: flex;
     flex-direction: column;
     gap: 10px;
+
 }
 .fa-box{
     border-radius: 10px;
     padding: 15px 25px;
     background-color: #FFFFFF;
     box-shadow: inset -2px -3px #fff2f2, inset 2px 3px #f8f0f0;
+    cursor: pointer;
 }
 .fa-title{
     font-weight: 700;
@@ -262,6 +264,7 @@ img{
 .works:hover{
     padding: 32px 4px;
     transform: scale(1.1);
+    cursor: pointer;
 }
 /*--------------------
 ------Our Sponspors--------
