@@ -105,7 +105,7 @@ img{
     font-size: 35px;
 }
 .features-sub-title{
-    font-weight: 800;
+    font-weight: 600;
     font-size: 35px;
     color: #FF900E;
     margin-bottom: 15px;
@@ -116,4 +116,85 @@ img{
     color: #727272;
     margin-bottom: 20px;
     margin-bottom: 15px;
+}
+/*---------------
+-----Features you will love & enjoy-
+--------------------*/
+.Features-second{
+    display: flex;
+    gap: 80px;
+    margin-top: 100px;
+    
+}
+/*Experience button open*/
+.Features-second .Experience{
+    position: absolute;
+    left: 650px;
+    top: 1920px;
+    background-color: #FF900E;
+    border-radius: 5px;
+    padding: 20px 25px;
+}
+.ex-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.ex-sub-title{
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+/*Experience button close*/
+.features-second-title{
+    font-weight: 800;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #131313;
+    padding-left: 8px;
+    border-left: 5px solid rgb(240, 158, 6);
+    border-radius: 5px;
+}
+.features-second-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.features-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.fa-box{
+    border-radius: 10px;
+    padding: 15px 25px;
+    background-color: #FFFFFF;
+    box-shadow: inset -2px -3px #fff2f2, inset 2px 3px #f8f0f0;
+}
+.fa-title{
+    font-weight: 700;
+    font-size: 15px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.fa-sub-title{
+    font-weight: 400;
+    font-size: 14px;
+    color: #727272;
+}
+.box1{
+    flex-basis: 45%;
+}
+.box2{
+    flex-basis: 55%;
+}
+/*features img*/
+.Features-div img{
+    height: 100vh;
+    width: 100%;
+   
 }
