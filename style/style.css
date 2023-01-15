@@ -367,7 +367,7 @@ img{
         font-size: 30px;
     }
     .works:hover{
-        transform: scale(0.5);
+        transform: scale(0.2);
         cursor: pointer;
         border: 2px solid rgb(21, 252, 13);
     }
