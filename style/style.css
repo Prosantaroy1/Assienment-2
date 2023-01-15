@@ -99,7 +99,10 @@ img{
     gap: 10px;
     margin-left: 25px;
 }
-
+.Features-photo img{
+    width: 250px;
+    height: 250px;
+}
 .features-title{
     font-weight: 500;
     font-size: 35px;
@@ -130,10 +133,10 @@ img{
 .Features-second .Experience{
     position: absolute;
     left: 650px;
-    top: 1920px;
+    top: 2130px;
     background-color: #FF900E;
     border-radius: 5px;
-    padding: 20px 25px;
+    padding: 30px 45px;
 }
 .ex-title{
     font-weight: 700;
