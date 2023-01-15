@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-----Font-----*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,500&display=swap');
+/*----import style---*/
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: 900px;
+    margin: 0px auto;
+}
+img{
+    width: 100%;
+}
+/*---------------
+---------Header styles----------
+----------*/
+.header{
+    background: rgba(255, 144, 14, 0.1);
+    
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 34px;
+}
+.nav-link ul{
+    display: flex;
+    gap: 40px;
+}
+.nav-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 35px;
+}
+.nav-link li a{
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+}
+/*brans style*/
+.Brands{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 84px;
+}
+.Brand-title, .brand-sub-title{
+    font-weight: 700;
+    font-size: 55px;
+    color: #131313;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.Brand-description{
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 25px;
+}
+.btn-primary{
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 18px;
+}
+.banner-photo{
+    margin-bottom: 10px;
+}
+/*---------------------------
+------------main style start---
+-----------------------------*/
