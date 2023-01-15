@@ -312,4 +312,65 @@ img{
     font-size: 20px;
     padding: 20px;
 }
+/*--------------------
+------------@media  styles-----
+------------------------*/
+/*Mobile devices responsive*/
+@media only screen and (max-width: 576px){
+    .container{
+        width: 100%;
+    }
+    /*----Header responsive*/
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    /*-------Main Features*/
+    .main-Features{
+        display: flex;
+        flex-direction: column;
+    }
+    .Features-photo{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 0;
+    }
+    .Features-photo img{
+        width: 100%;
+        
+    }
+    /*Features seconde*/
+    .Features-second{
+        display: flex;
+        flex-direction: column;
+    }
+    /*expericence box styles*/
+    .Features-second .Experience{
+       position: absolute;
+       left: 138px;
+       top: 3612px;
+    }
+    /*works details styles*/
+    .work-details{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .works{
+        background-color: black;
+        
+    }
+    .works-title, .works-sub-title{
+        color: #ffff;
+        font-size: 30px;
+    }
+    /*Sponspors style*/
+    .sponspors-box{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }    
+   
+}
 
