@@ -262,9 +262,9 @@ img{
     color: #727272;
 }
 .works:hover{
-    padding: 32px 4px;
     transform: scale(1.1);
     cursor: pointer;
+    border: 2px solid rgb(252, 13, 200);
 }
 /*--------------------
 ------Our Sponspors--------
@@ -365,6 +365,11 @@ img{
     .works-title, .works-sub-title{
         color: #ffff;
         font-size: 30px;
+    }
+    .works:hover{
+        transform: scale(0.5);
+        cursor: pointer;
+        border: 2px solid rgb(21, 252, 13);
     }
     /*Sponspors style*/
     .sponspors-box{
