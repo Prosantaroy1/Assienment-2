@@ -5,7 +5,9 @@
 }
 /*-----Font-----*/
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,500&display=swap');
-/*----import style---*/
+/*----------------
+-------------import style--
+--------------------*/
 body{
     font-family: 'Work Sans', sans-serif;
 }
@@ -49,7 +51,9 @@ img{
     font-weight: 500;
     font-size: 18px;
 }
-/*brans style*/
+/*------------
+-------brans style-----
+-----------------*/
 .Brands{
     display: flex;
     flex-direction: column;
@@ -82,7 +86,7 @@ img{
     margin-bottom: 18px;
 }
 .banner-photo{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 /*---------------------------
 ------------main style start---
@@ -115,10 +119,11 @@ img{
 }
 .features-description{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
+    line-height: 25px;
     color: #727272;
     margin-bottom: 20px;
-    margin-bottom: 15px;
+    
 }
 /*---------------
 -----Features you will love & enjoy-
@@ -253,6 +258,10 @@ img{
     font-weight: 600;
     font-size: 13px;
     color: #727272;
+}
+.works:hover{
+    padding: 32px 4px;
+    transform: scale(1.1);
 }
 /*--------------------
 ------Our Sponspors--------
