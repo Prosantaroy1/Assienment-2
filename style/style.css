@@ -82,8 +82,38 @@ img{
     margin-bottom: 18px;
 }
 .banner-photo{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 /*---------------------------
 ------------main style start---
 -----------------------------*/
+.main-Features{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-top: 60px;
+}
+.Features-photo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-left: 25px;
+}
+
+.features-title{
+    font-weight: 500;
+    font-size: 35px;
+}
+.features-sub-title{
+    font-weight: 800;
+    font-size: 35px;
+    color: #FF900E;
+    margin-bottom: 15px;
+}
+.features-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 20px;
+    margin-bottom: 15px;
+}
