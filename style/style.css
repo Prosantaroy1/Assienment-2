@@ -392,8 +392,8 @@ img{
     /*expericence box styles*/
     .Features-second .Experience{
        position: absolute;
-       left: 138px;
-       top: 3612px;
+       left: 0;
+       top: 3440px;
     }
     /*works details styles*/
     .work-details{
@@ -415,7 +415,7 @@ img{
         border: 2px solid rgb(21, 252, 13);
     }
     /*bonus section style*/
-    .bonus{
+    .bonus-conatiner{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
