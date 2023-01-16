@@ -37,15 +37,22 @@ img{
     align-items: center;
     padding-top: 34px;
 }
+.nav-title{
+    color: #da1616;
+    font-weight: 700;
+    font-size: 45px;
+}
+.logo-style{
+    color: blue;
+    font-weight: 800;
+    font-size: 35px;
+}
 .nav-link ul{
     display: flex;
     gap: 40px;
+    
 }
-.nav-title{
-    color: #131313;
-    font-weight: 700;
-    font-size: 35px;
-}
+
 .nav-link li a{
     color: #424242;
     font-weight: 500;
@@ -266,6 +273,42 @@ img{
     cursor: pointer;
     border: 2px solid rgb(252, 13, 200);
 }
+/*--------------
+---------Bonus box styles--
+----------------*/
+.bonus-title{
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 5px;
+    font-weight: 700;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+.bonus-conatiner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.bonus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1eeee;
+}
+.bonus img{
+    width: 100%;
+   
+}
+.bonus-sub-title{
+    display: none;
+}
+.bonus:hover >.bonus-sub-title{
+    display: block;
+}
+
+
+
 /*--------------------
 ------Our Sponspors--------
 ------------------------*/
@@ -370,6 +413,11 @@ img{
         transform: scale(0.8);
         cursor: pointer;
         border: 2px solid rgb(21, 252, 13);
+    }
+    /*bonus section style*/
+    .bonus{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
     /*Sponspors style*/
     .sponspors-box{
